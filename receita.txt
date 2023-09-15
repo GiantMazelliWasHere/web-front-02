@@ -1,0 +1,10 @@
+git status 
+git add
+git status
+git commit -m "mensagem do commit"
+git status
+git push origin nome_branch
+
+extra:
+git checkout -b nome_branch (cria uma branch)
+git checkou nome_branch (muda de branch)
