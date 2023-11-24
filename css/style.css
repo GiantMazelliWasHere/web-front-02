@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: grey;
+}
+
+.container {
+    max-width: 400px;
+    border: 1px solid red;
+    margin: 80px auto;
+    border-radius: 5px;
+    background: black;
+    box-shadow: 2px 2px 2px black ;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-control input[type="text"] {
+    padding: 5px;
+    outline: none;
+}
+
+button {
+    background: red;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    text-align: left;
+}
+
+.d-none {
+    display: none;
+}
